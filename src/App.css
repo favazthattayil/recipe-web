@@ -1,38 +1,104 @@
-.App {
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.class {
+  margin: auto;
+}
+
+h1 {
+  font-size: 38px;
+  margin-bottom: 18px;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 18px;
+}
+
+h3 {
+  padding-top: 4px;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+li {
+  list-style: none;
+  margin: auto;
+}
+
+p {
+  line-height: 27px;
+  font-size: 16px;
+}
+
+.text-centre {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+section {
+  margin: 80px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.special-dishes-content {
+  margin: auto;
+  max-width: 1550px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.dishes {
+  width: 250px;
+  height: 250px;
+  border-radius: 15px;
+  margin-top: 70px;
+  margin-bottom: 0;
+  margin: 35px;
+  text-align: center;
+}
+
+ul {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.flex {
   display: flex;
-  flex-direction: column;
+}
+.flex.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex.flex-centre {
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.specialdishes-name {
+  position: relative;
+  bottom: 33px;
+  left: 33px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.categories-btn {
+  color: rgb(28, 30, 31);
+  padding: 12px 30px;
+  min-width: 175px;
+  border-radius: 20px;
+  height: 50px;
+  cursor: pointer;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background-color: aquamarine;
+  font-weight: bold;
+  font-size: 20px;
+  transition: all ease-in 0.3s;
 }
+.categories-btn:hover {
+  background-color: black;
+  color: aliceblue;
+}
+.categories-btn:active {
+  background-color: black;
+}/*# sourceMappingURL=App.css.map */
