@@ -14,7 +14,7 @@ import './App.scss';
 function App() {
   const [loading, setLoading] = useState(true);
   const [meals, setMeals] = useState([]);
-  const [error, setError] = useState(null);
+  const [error, setError] = useState(null)
 
 
   useEffect(() => {
